@@ -1,2 +1,2 @@
 # obda-benchmarking
-mappings and ontologies for benchmarking ontology-based data access systems
+mappings, ontologies, and other stuff for benchmarking ontology-based data access systems
