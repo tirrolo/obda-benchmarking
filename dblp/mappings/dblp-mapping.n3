@@ -39,6 +39,7 @@ map:Server a d2r:Server;
 ## l3s.de hier klein, weil es fuer RDF *nicht* egal ist, ob Gross- oder Kleinschreibung...
     d2r:baseURI <http://dblp.l3s.de/d2r/>;
     d2r:port 2021;
+#    d2r:sparqlTimeout 2000;
     d2r:documentMetadata [
         dc:license <http://www.informatik.uni-trier.de/~ley/db/copyright.html>;
 #        admin:errorReportsTo <mailto:diederich@l3s.de>;
@@ -52,7 +53,7 @@ map:DB a d2rq:Database;
     d2rq:jdbcDSN "jdbc:mysql://localhost/dblp_joerg?autoReconnect=true";
     d2rq:username "<your username>";
     d2rq:password "<your password>";
-    d2rq:resultSizeLimit 10000;
+#    d2rq:resultSizeLimit 10000;
 #    d2rq:allowDistinct "true"
     .
 
